@@ -5,9 +5,14 @@
 
 html, body {
     background: var(--bg-color);
-    flex-direction: column;
     height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
 }
 
 @import './header.css';
 @import './messages.css';
+@import './footer.css';
