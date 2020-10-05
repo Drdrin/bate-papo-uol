@@ -4,7 +4,10 @@
 }
 
 html, body {
-    background: var(--bg-color); 
+    background: var(--bg-color);
+    flex-direction: column;
+    height: 100%;
 }
 
 @import './header.css';
+@import './messages.css';
